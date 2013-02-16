@@ -1,0 +1,11 @@
+libs.CopyLibs.classpath=\
+    ${base}/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar
+libs.CopyLibs.displayName=CopyLibs \u4efb\u52a1
+libs.MyLibrary.classpath=\
+    ${base}/commons-lang-2.6.jar:\
+    ${base}/commons-logging-1.1.1.jar:\
+    ${base}/commons-io-2.1.jar:\
+    ${base}/im4java-1.2.1.jar:\
+    ${base}/json-taglib-0.4.1.jar:\
+    ${base}/dom4j-1.6.1.jar
+libs.MyLibrary.displayName=MyLibrary

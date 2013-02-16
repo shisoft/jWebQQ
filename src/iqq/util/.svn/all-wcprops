@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util
+END
+AbstractNetImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/AbstractNetImage.java
+END
+Method.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/Method.java
+END
+ImageUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/ImageUtil.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/Log.java
+END
+BrowserUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/BrowserUtil.java
+END
+QQImageUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/QQImageUtil.java
+END
+FileLockUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/FileLockUtil.java
+END
+GroupUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/GroupUtil.java
+END
+AePlayWave.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/AePlayWave.java
+END
+DateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/DateUtils.java
+END
+ErrorMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/ErrorMessage.java
+END
+JpegNetImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/JpegNetImage.java
+END
+HttpUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/HttpUtils.java
+END
+PersistenceUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/PersistenceUtils.java
+END
+ThreadUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/ThreadUtil.java
+END
+QQEnvironment.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/QQEnvironment.java
+END
+JsonUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/JsonUtil.java
+END
+AudioPlayWave.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/util/AudioPlayWave.java
+END

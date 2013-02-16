@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/service
+END
+StackMessageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/service/StackMessageService.java
+END
+GroupService.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/service/GroupService.java
+END
+CategoryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/service/CategoryService.java
+END
+HttpService.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/service/HttpService.java
+END
+MessageService.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/service/MessageService.java
+END
+MemberService.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/service/MemberService.java
+END
+LoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/iQQ/src/iqq/service/LoginService.java
+END
