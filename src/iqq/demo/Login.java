@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package iqq.function;
+package iqq.demo;
 
 import iqq.model.Category;
 import iqq.model.Group;
