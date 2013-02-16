@@ -5,25 +5,19 @@
 package iqq.util;
 
 import atg.taglib.json.util.JSONArray;
-import atg.taglib.json.util.JSONException;
 import atg.taglib.json.util.JSONObject;
 import iqq.comm.Auth;
-import java.awt.image.BufferedImage;
 import java.io.*;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLEncoder;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import javax.imageio.ImageIO;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Element;
 import javax.swing.text.ElementIterator;
 import javax.swing.text.html.HTML;
 import javax.swing.text.html.HTMLDocument;
-import net.shisoft.sdk.Helpers.SecureCodeHelper;
 
 /**
  *
@@ -138,17 +132,17 @@ public class QQImageUtil {
     }
 
     public String getCFaceImage(String filename, int msg_id, long uin) {
-        try {
-            try {
-                filename = URLEncoder.encode(filename, "UTF-8");
-            } catch (UnsupportedEncodingException e) {
-            }
-            String url = "http://d.web2.qq.com/channel/get_cface2?lcid=" + msg_id + "&guid=" + filename + "&to=" + uin + "&count=5&time=1&clientid=" + Auth.getClientid() + "&psessionid=" + Auth.getPsessionid();
-            String imgUrl = "<img src=\"" + SecureCodeHelper.ImgBytesToSrcString(getByteFromURL(new URL(url))) + "\" title=\"图片或自定义表情\">";
-            return imgUrl;
-        } catch (MalformedURLException ex) {
-            Logger.getLogger(QQImageUtil.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            try {
+//                filename = URLEncoder.encode(filename, "UTF-8");
+//            } catch (UnsupportedEncodingException e) {
+//            }
+//            String url = "http://d.web2.qq.com/channel/get_cface2?lcid=" + msg_id + "&guid=" + filename + "&to=" + uin + "&count=5&time=1&clientid=" + Auth.getClientid() + "&psessionid=" + Auth.getPsessionid();
+//            String imgUrl = "<img src=\"" + SecureCodeHelper.ImgBytesToSrcString(getByteFromURL(new URL(url))) + "\" title=\"图片或自定义表情\">";
+//            return imgUrl;
+//        } catch (MalformedURLException ex) {
+//            Logger.getLogger(QQImageUtil.class.getName()).log(Level.SEVERE, null, ex);
+//        }
         return "";
     }
 
@@ -179,36 +173,37 @@ public class QQImageUtil {
         return bais.toByteArray();
     }
 
+ 
     public String getOffImage(String filepath, long uin) {
-        try {
-            try {
-                filepath = URLEncoder.encode(filepath, "UTF-8");
-            } catch (UnsupportedEncodingException e) {
-            }
-            //String url = "<img rdata=\"offpic\" src=\"http://d.web2.qq.com/channel/get_offpic2?file_path=" + filepath + "&f_uin=" + uin + "&clientid=" + Auth.getClientid() + "&psessionid=" + Auth.getPsessionid() + "\" id=\"_cface_2\" title=\"图片或自定义表情\">";
-            String url = "http://d.web2.qq.com/channel/get_offpic2?file_path=" + filepath + "&f_uin=" + uin + "&clientid=" + Auth.getClientid() + "&psessionid=" + Auth.getPsessionid();
-
-            String imgUrl = "<img src=\"" + SecureCodeHelper.ImgBytesToSrcString(getByteFromURL(new URL(url))) + "\" title=\"图片或自定义表情\">";
-            return imgUrl;
-        } catch (MalformedURLException ex) {
-            Logger.getLogger(QQImageUtil.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            try {
+//                filepath = URLEncoder.encode(filepath, "UTF-8");
+//            } catch (UnsupportedEncodingException e) {
+//            }
+//            //String url = "<img rdata=\"offpic\" src=\"http://d.web2.qq.com/channel/get_offpic2?file_path=" + filepath + "&f_uin=" + uin + "&clientid=" + Auth.getClientid() + "&psessionid=" + Auth.getPsessionid() + "\" id=\"_cface_2\" title=\"图片或自定义表情\">";
+//            String url = "http://d.web2.qq.com/channel/get_offpic2?file_path=" + filepath + "&f_uin=" + uin + "&clientid=" + Auth.getClientid() + "&psessionid=" + Auth.getPsessionid();
+//
+//            String imgUrl = "<img src=\"" + SecureCodeHelper.ImgBytesToSrcString(getByteFromURL(new URL(url))) + "\" title=\"图片或自定义表情\">";
+//            return imgUrl;
+//        } catch (MalformedURLException ex) {
+//            Logger.getLogger(QQImageUtil.class.getName()).log(Level.SEVERE, null, ex);
+//        }
         return "";
     }
 
     public String getGroupPic(JSONObject obj, long gid, long uin) {
-        try {
-            String ip = obj.getString("server");
-            String port = ip.substring(ip.indexOf(':'));
-            String fid = obj.getString("file_id");
-            String filename = obj.getString("name");
-            String url = "http://web3.qq.com/cgi-bin/get_group_pic?type=0&gid=" + gid + "&uin=" + uin + "&rip=" + ip + "&rport=" + port + "&fid=" + fid + "&pic=" + filename + "&vfwebqq=" + Auth.getVfwebqq() + "&t=" + System.currentTimeMillis();
-
-            return "<img src=\"" + SecureCodeHelper.ImgBytesToSrcString(getByteFromURL(new URL(url))) + "\" title=\"图片或自定义表情\">";
-
-        } catch (Exception ex) {
-            Logger.getLogger(QQImageUtil.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            String ip = obj.getString("server");
+//            String port = ip.substring(ip.indexOf(':'));
+//            String fid = obj.getString("file_id");
+//            String filename = obj.getString("name");
+//            String url = "http://web3.qq.com/cgi-bin/get_group_pic?type=0&gid=" + gid + "&uin=" + uin + "&rip=" + ip + "&rport=" + port + "&fid=" + fid + "&pic=" + filename + "&vfwebqq=" + Auth.getVfwebqq() + "&t=" + System.currentTimeMillis();
+//
+//            return "<img src=\"" + SecureCodeHelper.ImgBytesToSrcString(getByteFromURL(new URL(url))) + "\" title=\"图片或自定义表情\">";
+//
+//        } catch (Exception ex) {
+//            Logger.getLogger(QQImageUtil.class.getName()).log(Level.SEVERE, null, ex);
+//        }
         return "";
     }
 }
