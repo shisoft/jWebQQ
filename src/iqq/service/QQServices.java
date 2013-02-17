@@ -702,7 +702,6 @@ public abstract class QQServices {
     }
 
     public Member GetMember(long uin) {
-        List<Category> categoryList = getCategoryList();
         for (Category c : categoryList) {
             for (Member m : c.getMemberList()) {
                 if (m.getUin() == uin) {
@@ -789,7 +788,7 @@ public abstract class QQServices {
 
     public boolean deleteFriend(String uid) throws JSONException {
         String urlStr = "http://s.web2.qq.com/api/delete_friend";
-        httpService = usf.get(urlStr, Method.POST, "tuin=" + uid + "&delType=1&vfwebqq=" + Auth.getVfwebqq());
+        httpService = usf.get(urlStr, Method.POST, "tuin=" + uid + "&delType=2&vfwebqq=" + Auth.getVfwebqq());
         String result = httpService.sendHttpMessage();
         JSONObject retJson = new JSONObject(result);
         return (retJson.getInt("retcode") == 0);
