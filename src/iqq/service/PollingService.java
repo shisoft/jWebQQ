@@ -91,7 +91,6 @@ public abstract class PollingService extends Thread {
                     }
                 }
                 //查询新信息，5秒后继续查询
-                System.out.println("search....!!");
                 Thread.sleep(5000);
             } catch (Exception e) {
                 // TODO: handle exception
