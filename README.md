@@ -1,6 +1,12 @@
 jWebQQ
 ======
 
+
+WARNING: This project has been deprecated. please pay attention to WebQQCore(https://github.com/shisoft/WebQQCore)
+
+警告：此项目已经被遗弃，请关注新提交的 WebQQCore（https://github.com/shisoft/WebQQCore）
+
+
 A Web QQ Library based on iqq's work (http://code.google.com/p/iqq/). Redesigned to capable of using as a library.
 
 To use is in your own project,add jWebQQ to your Java SE or EE project, follow the sample in 'iqq.demo' package to get started.
